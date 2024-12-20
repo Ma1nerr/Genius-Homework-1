@@ -1,0 +1,186 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v32-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v32-latin-700.woff2') format('woff2');
+}
+
+:root {
+    --primary-white: #FFFFFF;
+    --primary-blue: #2B7FFF;
+    --primary-dark: #011C44;
+
+    --secondary-dark: #4A4A4A;
+    --secondary-grey: #747272;
+    --secondary-blue: #011F4A;
+    --secondary-yellow: #FFD02B;
+}
+
+/* Base */
+ul {
+    list-style-type: none;
+}
+
+p {
+    font-family: Roboto;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: Play;
+}
+
+/* Button */
+.button {
+
+    background-color: var(--primary-blue);
+    color: var(--primary-white);
+}
+
+/* Link */
+.link-header {
+    color: var(--primary-dark);
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.link-header:hover {
+    color: var(--primary-blue);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.link-footer {
+    color: var(--primary-white);
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.link-footer:hover {
+    color: var(--primary-blue);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* Header */
+.header-title {
+    color: var(--primary-blue);
+    text-transform: capitalize;
+    font-family: Play;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 0.8;
+}
+
+.header-subname {
+    color: var(--primary-dark);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-text {
+    color: var(--secondary-dark);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* About us section */
+.about-us-title {
+    font-family: Play;
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--primary-dark);
+}
+
+.about-us-title .accent {
+    color: var(--primary-blue);
+    text-transform: capitalize;
+}
+
+.about-us-text {
+    color: var(--primary-dark);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.72;
+}
+
+/* Why choose section */
+.why-choose-title {
+    color: var(--primary-dark);
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.why-choose-title .accent {
+    color: var(--primary-blue);
+}
+
+.why-choose-text {
+    color: #000;
+    background-color: var(--primary-white);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+/* Our procedures section */
+.our-procedures-title {
+    color: var(--primary-dark);
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.our-procedures-title .accent {
+    color: var(--primary-blue);
+}
+
+.our-procedures-text {
+    color: var(--primary-white);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+/* Contacts section */
+.contacts-title {
+    color: var(--primary-dark);
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.contacts-title .accent {
+    color: var(--primary-blue);
+}
+
+/* Footer section */
